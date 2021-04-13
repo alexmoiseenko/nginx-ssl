@@ -1,0 +1,10 @@
+version: '3'
+services:
+    fake_time:
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        volumes: 
+            - ./nginx/certs:/app/certs
+        environment:
+            - FAKETIME=-0.99d
