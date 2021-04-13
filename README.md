@@ -6,7 +6,7 @@
     make
 ```
 
-2) Install **ca.crt** and **client.crt** and add to trusted
+2) Install **/nginx/certs/ca.crt** and **/nginx/certs/client.crt** and add to trusted
 
 3) go to <https://localhost:8000> - enjoy!
 
